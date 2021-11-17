@@ -1,10 +1,14 @@
 
-# commands
+# docker commands
 
 ## container
 
-### view all container
+### view all containers
 ```
+# for all running contianers
+docker ps
+
+# for all containers
 docker ps -a
 ```
 
@@ -32,5 +36,43 @@ docker stop $(docker ps -aq)
 ```
 docker stop $(docker ps -aq) & docker rm $(docker ps -aq)
 ```
+
+### start one container
+```
+# for stopped container
+docker start container_name
+
+# for running container
+docker restart container_name
+```
+
+### enter one running container
+```
+docker attach container_name
+```
+
+## image
+
+### view all images
+```
+docker images
+```
+
+### remove one image
+```
+docker rmi image_name
+```
+
+### remove all images
+```
+docker rmi $(docker images -aq)
+```
+
+### build one image
+```
+docker build -t image_name .
+```
+
+
 
 
