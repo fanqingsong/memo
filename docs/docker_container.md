@@ -1,7 +1,7 @@
 
-# docker commands
+# docker container
 
-## container
+## commands
 
 ### view all containers
 ```
@@ -49,28 +49,6 @@ docker restart container_name
 ### enter one running container
 ```
 docker attach container_name
-```
-
-## image
-
-### view all images
-```
-docker images
-```
-
-### remove one image
-```
-docker rmi image_name
-```
-
-### remove all images
-```
-docker rmi $(docker images -aq)
-```
-
-### build one image
-```
-docker build -t image_name .
 ```
 
 
