@@ -34,6 +34,11 @@ alembic downgrade +2：相对降级，将数据库降级到当前版本前的两
 ### migration offline
 ```
 alembic upgrade <version> --sql > migration.sql
+
+alembic downgrade head:base --sql
+
+alembic upgrade base:head --sql
+
 ```
 
 
