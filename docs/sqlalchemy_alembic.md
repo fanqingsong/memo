@@ -3,7 +3,9 @@
 
 ## commands
 
-[source](https://zhuanlan.zhihu.com/p/90106173)
+[reference](https://zhuanlan.zhihu.com/p/90106173)
+
+[reference](https://www.cnblogs.com/blackmatrix/p/6236573.html)
 
 [official](https://alembic.sqlalchemy.org/en/latest/tutorial.html)
 
