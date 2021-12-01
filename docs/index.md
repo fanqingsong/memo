@@ -9,7 +9,11 @@ here is my knowledge base, I will update here as memo and for reference in the f
 
 ## MySQL
 
-- [WSL INSTALL](https://zhuanlan.zhihu.com/p/166444726)
+- [setup on WSL](./mysql_commands.md)
+
+## SQLAlchemy
+
+- [Alembic](./sqlalchemy_alembic.md)
 
 # Support
 
