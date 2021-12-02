@@ -5,6 +5,10 @@
 
 [official](https://docs.sqlalchemy.org/en/14/core/engines.html#database-urls)
 
+[comparison with others](https://medium.com/pragmatech/orm-for-python-b63cfbc39e7f)
+
+[comparison with others](https://www.pythoncentral.io/sqlalchemy-vs-orms/)
+
 ### SCHEMA
 ```
 dialect+driver://username:password@host:port/database
