@@ -7,6 +7,17 @@
 
 [comparison with others](https://www.pythoncentral.io/sqlalchemy-vs-orms/)
 
+## Reference
+
+[Session](https://docs.sqlalchemy.org/en/14/orm/session_api.html?highlight=session#sqlalchemy.orm.Session)
+
+[Relation](https://docs.sqlalchemy.org/en/14/orm/relationships.html)
+
+[Column](https://docs.sqlalchemy.org/en/14/core/metadata.html?highlight=column#sqlalchemy.schema.Column)
+
+[DATA TYPE](https://docs.sqlalchemy.org/en/14/core/type_basics.html#generic-types)
+
+
 ## DATABASE URL
 
 [official](https://docs.sqlalchemy.org/en/14/core/engines.html#database-urls)
