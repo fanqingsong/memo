@@ -48,7 +48,11 @@ docker restart container_name
 
 ### enter one running container
 ```
+# for iterative runing container
 docker attach container_name
+
+# for all container
+docker exec -it container_name /bin/bash
 ```
 
 
