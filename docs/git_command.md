@@ -18,6 +18,36 @@ git push origin --tags
 git reset --hard origin/master
 ```
 
+### remove the HEAD commit
+```
+git reset --hard HEAD^
+```
+
+### merge commit into this branch from other branches
+```
+git cherry-pick 00940ac970b9ddab63bff928479668bbfa293aaf
+```
+
+### merge one file into this branch from other branches
+```
+git checkout feature/new1.1 -- usercontroller.php
+```
+
+### create new branch
+```
+git checkout -b mywork origin
+```
+
+### rebase current branch on origin branch
+```
+git rebase origin
+```
+
+### merge another branch with this branch
+```
+git merge fixes
+```
+
 ### show diff
 ```
 git diff
