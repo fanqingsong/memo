@@ -2,6 +2,10 @@
 
 here is my knowledge base, I will update here as memo and for reference in the future.
 
+## Linux
+
+- [linux commands](./linux_command.md)
+
 ## Git
 
 - [git commands](./git_command.md)
