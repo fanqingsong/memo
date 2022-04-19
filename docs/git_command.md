@@ -13,6 +13,11 @@ git rev-parse HEAD
 git push origin --tags
 ```
 
+### push head to origin master
+```
+git push origin HEAD:refs/drafts/master
+```
+
 ### drop all your work
 ```
 git reset --hard origin/master
