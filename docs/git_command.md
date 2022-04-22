@@ -8,14 +8,24 @@
 git rev-parse HEAD
 ```
 
+### add tag
+```
+git push v1.0
+```
+
 ### push tag
 ```
 git push origin --tags
 ```
 
-### push head to origin master
+### push head to origin master drafts
 ```
 git push origin HEAD:refs/drafts/master
+```
+
+### push head to origin master
+```
+git push origin master
 ```
 
 ### drop all your work
@@ -43,15 +53,31 @@ git checkout feature/new1.1 -- usercontroller.php
 git checkout -b mywork origin
 ```
 
+### switch branch
+```
+git checkout develop
+```
+
+### delete branch
+```
+git branch -d feature-discuss
+```
+
 ### rebase current branch on origin branch
 ```
 git rebase origin
 ```
 
-### merge another branch with this branch
+### merge another branch with this branch, will generate a merge commit on top
 ```
-git merge fixes
+git merge another_branch
 ```
+
+### merge another branch with this branch without fast forward
+```
+git merge --no-ff another_branch
+```
+
 
 ### show diff
 ```
