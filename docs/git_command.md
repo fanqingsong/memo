@@ -33,9 +33,39 @@ git push origin master
 git reset --hard origin/master
 ```
 
+### stash all your work
+```
+git stash
+```
+
+### pop out your stash 
+```
+git stash pop
+```
+
+### set head to the specified commit
+```
+git reset --hard commit_id
+```
+
 ### remove the HEAD commit
 ```
 git reset --hard HEAD^
+```
+
+### remove the HEAD commit softly, all change will be in stage
+```
+git reset --soft HEAD^
+```
+
+### get the reverted log, it is helpful if you use git reset --hard wrongly
+```
+git reflog
+```
+
+### revert the specified commit
+```
+git revert commit_id
 ```
 
 ### merge commit into this branch from other branches
