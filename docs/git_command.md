@@ -43,11 +43,6 @@ git stash
 git stash pop
 ```
 
-### set head to the specified commit
-```
-git reset --hard commit_id
-```
-
 ### remove the HEAD commit
 ```
 git reset --hard HEAD^
@@ -58,9 +53,14 @@ git reset --hard HEAD^
 git reset --soft HEAD^
 ```
 
-### get the reverted log, it is helpful if you use git reset --hard wrongly
+### get the deleted commits log, it is helpful to restore them if you use git reset --hard wrongly
 ```
 git reflog
+```
+
+### set head to the specified commit
+```
+git reset --hard commit_id
 ```
 
 ### revert the specified commit
