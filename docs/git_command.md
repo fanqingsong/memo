@@ -8,6 +8,11 @@
 git rev-parse HEAD
 ```
 
+### alias
+```
+git config --global alias.st status
+```
+
 ### add tag
 ```
 git push v1.0
