@@ -16,6 +16,7 @@ git push v1.0
 ### push tag
 ```
 git push origin --tags
+git push origin tagname
 ```
 
 ### push head to origin master drafts
@@ -23,9 +24,10 @@ git push origin --tags
 git push origin HEAD:refs/drafts/master
 ```
 
-### push head to origin master
+### push head to origin master or dev
 ```
 git push origin master
+git push origin dev
 ```
 
 ### drop all your work
@@ -51,6 +53,11 @@ git reset --hard HEAD^
 ### remove the HEAD commit softly, all change will be in stage
 ```
 git reset --soft HEAD^
+```
+
+### get logs
+```
+git log --graph --pretty=oneline --abbrev-commit
 ```
 
 ### get the deleted commits log, it is helpful to restore them if you use git reset --hard wrongly
@@ -81,6 +88,11 @@ git checkout feature/new1.1 -- usercontroller.php
 ### create new branch
 ```
 git checkout -b mywork origin
+```
+
+### create new branch with remote branch
+```
+git checkout -b dev origin/dev
 ```
 
 ### switch branch
@@ -140,6 +152,10 @@ git tag -m <msg> <tagname>
 # Git will behave as if you passed the -a flag for annotation and use the provided message.
 ```
 
+### delete tag
+```
+git tag -d v1.0
+```
 
 
 
