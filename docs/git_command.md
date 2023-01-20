@@ -38,16 +38,21 @@ git reset --hard origin/master
 ### stash all your work
 ```
 git stash
+git stash list
 ```
 
 ### pop out your stash 
 ```
 git stash pop
+git stash apply xxx
+git stash drop xxx
 ```
 
 ### remove the HEAD commit
 ```
 git reset --hard HEAD^
+git reset --hard HEAD~100
+git reset --hard 3628164
 ```
 
 ### remove the HEAD commit softly, all change will be in stage
@@ -130,6 +135,8 @@ git diff HEAD HEAD^
 git diff HEAD HEAD^ --name-only
 
 git show HEAD --name-only
+
+git diff readme.txt
 ```
 
 ### position who make revision
