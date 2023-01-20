@@ -11,6 +11,11 @@ git rev-parse HEAD
 ### alias
 ```
 git config --global alias.st status
+
+example:
+git config --global alias.unstage 'reset HEAD'
+git unstage test.py
+git reset HEAD test.py
 ```
 
 ### add tag
