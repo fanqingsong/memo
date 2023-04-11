@@ -21,7 +21,9 @@ here is my knowledge base, I will update here as memo and for reference in the f
 
 ## MySQL
 
-- [setup on WSL](./mysql_commands.md)
+- [setup on WSL](./mysql_install_on_WSL.md)
+- [mysql commands](./mysql_commands.md)
+
 
 ## SQLAlchemy
 

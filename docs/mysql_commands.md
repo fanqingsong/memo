@@ -1,28 +1,15 @@
 
-# MySQL
+# MySQL Commands
 
 ## commands
 
-[source](https://zhuanlan.zhihu.com/p/166444726)
+[Official](https://dev.mysql.com/doc/refman/8.0/en/tutorial.html)
+[Cheatsheet](https://devhints.io/mysql)
 
-### install
-```
-sudo apt-get install mysql-server
-```
 
-### start
+### Connect
 ```
-sudo service mysql start
-```
-
-### login
-```
-mysql -u root -p
-```
-
-### open skip-grant-tables firstly
-```
-sudo vim /etc/mysql/mysql.conf.d/mysqld.cnf
+mysql -h host -u user -p
 ```
 
 

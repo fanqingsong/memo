@@ -58,6 +58,17 @@ git stash apply xxx
 git stash drop xxx
 ```
 
+### git patch
+```
+git diff > patch
+git diff HEAD HEAD^ > patch
+git format-patch HEAD^ 
+git format-patch commit_new commit_old
+
+git apply patch
+git apply --check patch
+```
+
 ### remove the HEAD commit
 ```
 git reset --hard HEAD^
