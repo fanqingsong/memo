@@ -30,9 +30,13 @@ git push origin --tags
 git push origin tagname
 ```
 
-### push head to origin master drafts
+### push to origin
 ```
+git push origin master:refs/for/master
+
 git push origin HEAD:refs/drafts/master
+
+git push origin master:refs/heads/master
 ```
 
 ### push head to origin master or dev
