@@ -11,6 +11,7 @@ git rev-parse HEAD
 ### alias
 ```
 git config --global alias.st status
+git config --global alias.ci commit
 
 example:
 git config --global alias.unstage 'reset HEAD'
@@ -183,6 +184,13 @@ git tag -m <msg> <tagname>
 ### delete tag
 ```
 git tag -d v1.0
+```
+
+### config
+```
+git config --global user.email "qsfan@qq.com"
+git config --global user.user "fanqingsong"
+git config --global credential.helper store
 ```
 
 
