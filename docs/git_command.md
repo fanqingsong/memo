@@ -1,6 +1,9 @@
 
 # git command
 
+- [Gitflow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)
+- [git-flow cheatsheet](http://dominhhai.github.io/git-flow-cheatsheet/index.html)
+
 ## commands
 
 ### get head commit id
@@ -12,6 +15,8 @@ git rev-parse HEAD
 ```
 git config --global alias.st status
 git config --global alias.ci commit
+git config --global alias.co checkout
+
 
 example:
 git config --global alias.unstage 'reset HEAD'
@@ -37,6 +42,13 @@ git push origin master:refs/for/master
 git push origin HEAD:refs/drafts/master
 
 git push origin master:refs/heads/master
+```
+
+### git push review
+```
+git remote add review https://xxxx
+git config remote.review.pushurl https://xxx
+git config remote.review.push 'HEAD:refs/drafts/master'
 ```
 
 ### push head to origin master or dev
