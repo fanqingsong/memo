@@ -22,6 +22,11 @@ docker rm container_name
 docker rm $(docker ps -aq)
 ```
 
+### remove all containers
+```
+docker container prune
+```
+
 ### stop one container
 ```
 docker stop container_name

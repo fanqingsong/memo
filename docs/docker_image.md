@@ -23,6 +23,11 @@ docker rmi $(docker images -aq)
 docker build -t image_name .
 ```
 
+### remove all unused image
+```
+docker image prune -a
+```
+
 
 
 
