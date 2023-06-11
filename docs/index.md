@@ -18,6 +18,7 @@ here is my knowledge base, I will update here as memo and for reference in the f
 
 - [container](./docker_container.md)
 - [image](./docker_image.md)
+- [misc](./docker_misc.md)
 
 ## MySQL
 

@@ -18,3 +18,40 @@ ln -sf /src /dst
 
 sudo su
 ```
+
+### check disk size
+```
+df -h
+```
+
+### find the subdirectory size of root
+```
+du -hx --max-depth=1 / | sort -h -r
+
+https://www.cnblogs.com/z1990/p/15179901.html
+```
+
+### find older files and ....
+```
+https://www.cnblogs.com/peida/archive/2012/11/14/2769248.html
+
+find . -type f -exec ls -l {} \;
+
+find . -type f -mtime +14 -exec rm {} \; 
+
+find . -name "*.log" -mtime +5 -ok rm {} \;
+
+find . -name "*.log" -exec mv {} .. \;
+
+find . -name "*.log" -exec cp {} test3 \;
+
+find /var/lib/docker/containers/ -name *-json.log
+```
+
+### rsync
+```
+rsync -avz /var/lib/docker /root/dockerlib/
+```
+
+
+
