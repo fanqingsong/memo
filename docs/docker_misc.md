@@ -17,4 +17,9 @@ cd /var/lib/docker/containers
 du -a --max-depth=1 | sort -nr | head -5
 ```
 
+### check and clean disk of contianer
+```
+docker inspect --format='{{.LogPath}}' my-app
+ sudo sh -c 'echo "" > $(docker inspect --format="{{.LogPath}}" my-app)'
+```
 

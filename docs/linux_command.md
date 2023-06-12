@@ -2,6 +2,9 @@
 
 ## commands
 
+- [useful link](https://zhuanlan.zhihu.com/p/412735786)
+
+
 ### detect port service
 ```
 nc -zv www.baidu.com 80
