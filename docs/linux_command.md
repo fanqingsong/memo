@@ -42,6 +42,10 @@ find . -type f -exec ls -l {} \;
 
 find . -type f -mtime +14 -exec rm {} \; 
 
+find . -type d -name __pycache__ -exec rm -r {} \;
+
+find . | grep -E "(/__pycache__$|\.pyc$|\.pyo$)" | xargs rm -rf
+
 find . -name "*.log" -mtime +5 -ok rm {} \;
 
 find . -name "*.log" -exec mv {} .. \;
