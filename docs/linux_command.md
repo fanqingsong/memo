@@ -10,6 +10,11 @@
 nc -zv www.baidu.com 80
 ```
 
+## view all service with ports
+```
+netstat -antulp
+```
+
 ### create soft link
 ```
 ln -sf /src /dst
@@ -20,6 +25,8 @@ ln -sf /src /dst
 # PermissionError: [Errno 13] Permission denied
 
 sudo su
+
+sudo su - postgres
 ```
 
 ### check disk size

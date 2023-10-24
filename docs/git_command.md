@@ -11,6 +11,11 @@
 git rev-parse HEAD
 ```
 
+### view remote repo
+```
+git remote -v
+```
+
 ### alias
 ```
 git config --global alias.st status
