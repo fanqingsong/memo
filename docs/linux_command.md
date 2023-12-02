@@ -3,7 +3,7 @@
 ## commands
 
 - [useful link](https://zhuanlan.zhihu.com/p/412735786)
-
+- [cheat sheet](https://phoenixnap.com/kb/linux-commands-cheat-sheet)
 
 ### detect port service
 ```
