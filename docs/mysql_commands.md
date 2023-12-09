@@ -15,6 +15,23 @@
 mysql -h host -u user -p
 ```
 
+### user management
+```
+SELECT user, host, plugin FROM mysql.user;
+
+
+create user 'test_u'@'%' identified by 'kkSWhEpMVZ1xfaebJsRS';
+CREATE USER 'percona'@'localhost' IDENTIFIED BY RANDOM PASSWORD;
+
+
+grant select,insert,delete,update on db_test.* to 'test_u'@'%' ;
+
+
+ALTER USER 'root'@'localhost' IDENTIFIED BY 'new_password';
+ALTER USER 'root'@'localhost' IDENTIFIED BY RANDOM PASSWORD;
+
+DROP USER 'jack'@'localhost';
+```
 
 
 
