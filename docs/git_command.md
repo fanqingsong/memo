@@ -14,7 +14,18 @@ git rev-parse HEAD
 ### view remote repo
 ```
 git remote -v
+
+git branch -r
 ```
+
+
+### local branches
+```
+git branch
+
+git checkout -b xxx
+```
+
 
 ### alias
 ```
