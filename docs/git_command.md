@@ -151,6 +151,12 @@ git checkout develop
 ### delete branch
 ```
 git branch -d feature-discuss
+
+// 删除本地分支
+git branch -d localBranchName
+
+// 删除远程分支
+git push origin --delete remoteBranchName
 ```
 
 ### rebase current branch on origin branch
@@ -214,6 +220,15 @@ git config --global user.user "fanqingsong"
 git config --global credential.helper store
 ```
 
+
+### update locally
+```
+git pull origin next
+
+==
+git fetch origin master
+git merge FETCH_HEAD 
+```
 
 
 
