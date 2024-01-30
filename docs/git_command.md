@@ -126,6 +126,8 @@ git revert commit_id
 ### merge commit into this branch from other branches
 ```
 git cherry-pick 00940ac970b9ddab63bff928479668bbfa293aaf
+
+git cherry-pick commit1..commit100
 ```
 
 ### merge one file into this branch from other branches
