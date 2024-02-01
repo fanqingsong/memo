@@ -33,6 +33,12 @@ ALTER USER 'root'@'localhost' IDENTIFIED BY RANDOM PASSWORD;
 DROP USER 'jack'@'localhost';
 ```
 
+### delete foreign key
+```
+show create table table_name
 
+
+ALTER TABLE tb_emp9 DROP FOREIGN KEY fk_emp_dept;
+```
 
 
