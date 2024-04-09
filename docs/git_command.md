@@ -78,6 +78,13 @@ git push origin dev
 git reset --hard origin/master
 ```
 
+### git add all but exclude some one file
+```
+git add -u
+git reset -- static/js/dashboard.js
+```
+
+
 ### stash all your work
 ```
 git stash
