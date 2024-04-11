@@ -62,6 +62,8 @@ find . -name "*.log" -exec cp {} test3 \;
 find /var/lib/docker/containers/ -name *-json.log
 
 find ./ -size +10M -size -20M
+
+find ~ -size -1G
 ```
 
 ### rsync
