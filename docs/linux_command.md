@@ -13,6 +13,11 @@ nc -zv www.baidu.com 80
 ## view all service with ports
 ```
 netstat -antulp
+
+# check appname and pid
+sudo netstat -antulp
+
+sudo ss -tulnp | grep 443
 ```
 
 ### create soft link
