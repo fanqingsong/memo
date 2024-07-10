@@ -20,6 +20,12 @@ sudo netstat -antulp
 sudo ss -tulnp | grep 443
 ```
 
+## view process info
+```
+ps aux | grep pid
+```
+
+
 ### create soft link
 ```
 ln -sf /src /dst
