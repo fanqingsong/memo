@@ -26,6 +26,11 @@ here is my knowledge base, I will update here as memo and for reference in the f
 - [mysql commands](./mysql_commands.md)
 
 
+## Machine Learning
+
+- [Machine Learning](./ml_commands.md)
+
+
 ## SQLAlchemy
 
 - [SQLAlchemy](./sqlalchemy_sqlalchemy.md)
