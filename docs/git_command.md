@@ -237,7 +237,14 @@ git tag -d v1.0
 ```
 git config --global user.email "qsfan@qq.com"
 git config --global user.user "fanqingsong"
+
 git config --global credential.helper store
+
+git config --global credential.helper
+
+git config --unset credential.helper
+
+git credential-store clean
 ```
 
 
