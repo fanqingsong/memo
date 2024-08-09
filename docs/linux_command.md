@@ -38,6 +38,20 @@ ln -sf /src /dst
 sudo su
 
 sudo su - postgres
+
+sudo -i -u senthil
+```
+
+### user group
+```
+sudo adduser senthil
+
+sudo usermod -g root song
+
+sudo adduser senthil sudo
+sudo usermod -aG sudo senthil
+
+sudo deluser senthil
 ```
 
 ### check disk size
