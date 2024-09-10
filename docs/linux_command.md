@@ -96,5 +96,42 @@ find ~ -size -1G
 rsync -avz /var/lib/docker /root/dockerlib/
 ```
 
+### grep
+```
+grep nobody /etc/passwd
+
+grep linuxtechi /etc/passwd /etc/shadow /etc/gshadow
+
+# list all files
+grep -l 'root' /etc/fstab /etc/passwd /etc/mtab
+
+# display line number
+grep -n 'nobody' /etc/passwd
+
+# find string with prefix
+grep ^backup /etc/passwd
+
+# find string with suffix
+grep bash$ /etc/passwd
+
+# find recursively
+sudo grep -r nobody /etc
+
+# find empty line
+grep '^$' /etc/sysctl.conf
+
+# ignore lettercase
+grep -i IP_Forward /etc/sysctl.conf
+
+# find with one word
+sudo sysctl -a | grep -w 'vm.swappiness'
+
+# find with multiple words
+grep -e nobody -e mail /etc/passwd
+grep -E "nobody|mail" /etc/passwd
+
+```
+
+
 
 

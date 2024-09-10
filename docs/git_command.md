@@ -76,6 +76,8 @@ git push origin dev
 ### drop all your work
 ```
 git reset --hard origin/master
+
+git reset --soft origin/master
 ```
 
 ### git add all but exclude some one file
