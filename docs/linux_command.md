@@ -25,6 +25,20 @@ sudo ss -tulnp | grep 443
 ps aux | grep pid
 ```
 
+## scp command
+```
+#下载设备中 root 目录下的 test.txt 到当前目录
+scp root@192.168.0.111:/root/test.txt ./
+
+ #从设备下载 root 目录下的 demo 文件夹到当前目录
+scp -r root@192.168.0.111:/root/demo ./
+
+#上传当前目录下的 result.log 到设备 root 目录下
+scp ./result.log root@192.168.0.111:/root/ 
+
+#上传当前目录下的 check 目录到设备 root 目录
+scp -r ./check root@192.168.0.111:/root/
+```
 
 ### create soft link
 ```
