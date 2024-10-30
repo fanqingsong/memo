@@ -60,6 +60,16 @@ docker attach container_name
 docker exec -it container_name /bin/bash
 ```
 
+### export and import container
+```
+# export
+# https://www.cnblogs.com/yanling-coder/p/11715534.html
+docker export b91d9ad83efa > tomcat80824.tar
+
+# import
+docker import tomcat80824.tar
+docker tag 880f tomcat80824:1.0
+```
 
 
 
