@@ -15,6 +15,8 @@ git rev-parse HEAD
 ```
 git remote -v
 
+git remote show origin
+
 git branch -r
 ```
 
