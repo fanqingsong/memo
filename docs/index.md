@@ -2,6 +2,11 @@
 
 here is my knowledge base, I will update here as memo and for reference in the future.
 
+## Cheat Sheet
+
+- [cheat sheet](./cheat_sheet.md)
+
+
 ## Linux
 
 - [linux commands](./linux_command.md)
