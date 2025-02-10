@@ -18,3 +18,14 @@ conda deactivate
 conda env remove --name xxxxx
 ```
 
+
+### uv
+```
+uv pip install -r pyproject.toml
+or
+uv pip sync pyproject.toml
+
+uvicorn svc.main:app --port 5002 --reload
+
+```
+
