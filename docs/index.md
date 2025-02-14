@@ -31,9 +31,9 @@ here is my knowledge base, I will update here as memo and for reference in the f
 - [mysql commands](./mysql_commands.md)
 
 
-## Machine Learning
+## Python
 
-- [Machine Learning](./ml_commands.md)
+- [Python](./python_commands.md)
 
 
 ## SQLAlchemy

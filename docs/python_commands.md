@@ -21,8 +21,14 @@ conda env remove --name xxxxx
 
 ### uv
 ```
+uv venv --python=python3.9
+
+source .venv/bin/activate
+
+uv pip install -r requirements.txt
+
 uv pip install -r pyproject.toml
-or
+
 uv pip sync pyproject.toml
 
 uvicorn svc.main:app --port 5002 --reload
