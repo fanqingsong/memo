@@ -15,6 +15,9 @@ git rev-parse HEAD
 ```
 git remote -v
 
+git remote set-url origin git@github.com:fanqingsong/vanna-flask.git
+git remote set-url --push origin git@github.com:fanqingsong/vanna-flask.git
+
 git remote show origin
 
 git branch -r
